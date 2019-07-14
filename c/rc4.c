@@ -47,6 +47,7 @@ int rc4_encrypt(unsigned char *key,int keylen,unsigned char *data,int datalen,un
 		out[m]=k^data[m];
 		m++;
 	}
+	return m;
 
 }
 
